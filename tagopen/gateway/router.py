@@ -1,5 +1,6 @@
 """Channel router — maps (workspace_id, channel_id) to an AgentSession and runs the loop."""
 
+import asyncio
 import logging
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
@@ -24,10 +25,7 @@ class AgentSession:
     channel_id: str
     # Shared lock so concurrent @mentions in the same channel are serialized
     # preventing context corruption from parallel writes.
-    _lock: asyncio.Lock = field(default_factory=lambda: __import__("asyncio").Lock())
-
-
-import asyncio  # noqa: E402 — needed for Lock reference above
+    _lock: asyncio.Lock = field(default_factory=asyncio.Lock)
 
 
 def get_or_create_session(workspace_id: str, channel_id: str) -> AgentSession:

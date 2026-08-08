@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import logging
-from functools import lru_cache
 from pathlib import Path
 
 import aiosqlite
@@ -88,7 +87,7 @@ class MessageStore:
             """SELECT ts, role, user_id, display_name, content
                FROM messages
                WHERE channel_id = ?
-               ORDER BY created_at DESC
+               ORDER BY created_at DESC, rowid DESC
                LIMIT ?""",
             (self._channel_id, limit),
         ) as cursor:
