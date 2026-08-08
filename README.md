@@ -291,15 +291,33 @@ model = "gpt-4o"
 
 # MCP servers allowed in this channel
 [[mcp_server]]
-name = "github"
-url = "mcp://localhost:3001"
-allowed_tools = ["list_prs", "get_file", "create_comment", "trigger_workflow"]
+name = "github"                                # namespace prefix: tools appear as github__<tool>
+url = "https://api.githubcopilot.com/mcp/"     # HTTP(S) MCP endpoint (Streamable HTTP)
+auth_env = "GITHUB_MCP_TOKEN"                  # NAME of an env var holding a bearer token
+allowed_tools = ["list_pull_requests", "get_file_contents", "add_issue_comment"]
 
+# Long-running tools? Mark the server task_mode and calls run as MCP
+# background tasks (polled to completion instead of blocking the request).
 [[mcp_server]]
-name = "linear"
-url = "mcp://localhost:3002"
-allowed_tools = ["list_issues", "create_issue", "update_status"]
+name = "crawler"
+url = "http://localhost:3001/mcp"
+auth_env = "CRAWLER_MCP_TOKEN"
+task_mode = true
+timeout = 1200                                 # max seconds per tool call (default 1200)
 ```
+
+Field reference:
+
+| Field | Required | Meaning |
+|---|---|---|
+| `name` | yes | Namespace prefix — the server's tools are exposed to the model as `<name>__<tool>` |
+| `url` | yes | HTTP(S) URL of the MCP endpoint (Streamable HTTP) |
+| `auth_env` | no | Name of an environment variable holding a bearer token. Resolved at connect time — the secret itself never sits in `tools.toml` |
+| `allowed_tools` | no | Allowlist of tool names (un-namespaced). Omit to expose every tool. Enforced at listing *and* dispatch |
+| `task_mode` | no | Run this server's tools as MCP background tasks — for tools that run minutes, not seconds |
+| `timeout` | no | Max seconds a single tool call may run (foreground call or background-task wait). Default 1200 |
+
+Tool listings are cached per channel for 60 seconds, so config edits and server-side tool changes show up within a minute. An unreachable or misconfigured server never breaks the agent — its tools are skipped for the turn, and a failed tool call returns a plain error message to the model instead of crashing the loop.
 
 ### Skills — auto-created institutional knowledge
 

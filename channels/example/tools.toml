@@ -8,14 +8,30 @@
 # model = "gemini/gemini-2.0-flash"         # use Gemini
 # model = "groq/llama-3.3-70b-versatile"   # use Groq
 
-# Example: GitHub MCP server
-# [[mcp_server]]
-# name = "github"
-# url = "mcp://localhost:3001"
-# allowed_tools = ["list_prs", "get_file", "create_comment"]
+# MCP servers — each entry exposes the server's tools to this channel's agent,
+# namespaced as "<name>__<tool>" (e.g. github__list_pull_requests).
+#
+#   name           required. Namespace prefix for the server's tools.
+#   url            required. HTTP(S) URL of the MCP endpoint (Streamable HTTP).
+#   auth_env       optional. NAME of an environment variable holding a bearer
+#                  token. The token is read from the environment at connect
+#                  time — never put the secret itself in this file.
+#   allowed_tools  optional. Allowlist of tool names; omit to expose all tools.
+#   task_mode      optional. Run this server's tools as MCP background tasks
+#                  (for long-running tools); the agent polls for the result.
+#   timeout        optional. Max seconds a single tool call may run
+#                  (foreground call or background-task wait). Default 1200.
 
-# Example: Linear MCP server
+[[mcp_server]]
+name = "github"
+url = "https://api.githubcopilot.com/mcp/"
+auth_env = "GITHUB_MCP_TOKEN"
+allowed_tools = ["list_pull_requests", "get_file_contents", "add_issue_comment"]
+
+# Example: a self-hosted server whose tools run long (crawls, batch jobs)
 # [[mcp_server]]
-# name = "linear"
-# url = "mcp://localhost:3002"
-# allowed_tools = ["list_issues", "create_issue", "update_status"]
+# name = "crawler"
+# url = "http://localhost:3001/mcp"
+# auth_env = "CRAWLER_MCP_TOKEN"
+# task_mode = true
+# timeout = 1200

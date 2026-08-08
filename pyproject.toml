@@ -12,7 +12,7 @@ dependencies = [
     "slack-bolt>=1.21.0",
     "litellm>=1.45.0",
     "mem0ai>=0.1.0",
-    "mcp>=1.0.0",
+    "fastmcp>=3.0",
     "aiosqlite>=0.20.0",
     "apscheduler>=3.10.0",
     "pydantic>=2.7.0",
@@ -25,6 +25,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+    "fastmcp[tasks]>=3.0",  # task-capable in-process MCP server for tests
     "pytest>=8.2.0",
     "pytest-asyncio>=0.23.0",
     "pytest-mock>=3.14.0",
