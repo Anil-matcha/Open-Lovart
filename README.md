@@ -489,11 +489,11 @@ pytest && ruff check .
 
 ## Star history
 
-<a href="https://star-history.com/#Anil-matcha/open-claude-tag&Date">
+<a href="https://star-history.dera.page/#Anil-matcha/open-claude-tag&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Anil-matcha/open-claude-tag&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Anil-matcha/open-claude-tag&type=Date" />
-    <img alt="Star history" src="https://api.star-history.com/svg?repos=Anil-matcha/open-claude-tag&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=Anil-matcha/open-claude-tag&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=Anil-matcha/open-claude-tag&type=Date" />
+    <img alt="Star history" src="https://star-history.dera.page/svg?repos=Anil-matcha/open-claude-tag&type=Date" />
   </picture>
 </a>
 
