@@ -172,6 +172,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [863683348/dsh-plugin-translation](https://github.com/863683348/dsh-plugin-translation) — Translation toolkit: segmentation, glossary extraction, source-target QA, and translation memory.
 - [863683348/dsh-plugin-finance-data](https://github.com/863683348/dsh-plugin-finance-data) — Finance toolkit: currency formatting, return/CAGR math, valuation ratios, and risk metrics.
 
+- [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) — Research-only trading workbench: typed market-data seam with BYO providers, multi-timeframe indicator snapshots, interactive chart cards with provenance-gated model annotations, and a pre-execute risk-guard that blocks execution-shaped tool calls.
 ### Vision & Multimodal
 
 - [54xkeee/dsh-vision](https://github.com/54xkeee/dsh-vision) — Zero-cost vision for text-only DeepSeek via a logged-in Chrome CDP bridge, with fallback providers.
