@@ -7,6 +7,10 @@ DeepSeek Harness is a runnable coding agent (Web UI + headless) built on [Cordis
 > [!WARNING]
 > Installing any third-party `dsh` plugin runs its code on your machine with your own permissions. Being listed here is not a security review — read the source before installing, especially for plugins that touch credentials, the network, or your filesystem.
 
+<p align="center"><a href="https://youtu.be/tiWhE0MoKsc"><img src="https://i.ytimg.com/vi/tiWhE0MoKsc/maxresdefault.jpg" width="720"></a></p>
+<p align="center"><a href="https://youtu.be/tiWhE0MoKsc"><b>▶ Watch: Awesome DSH Plugin — Top 10 DeepSeek Harness Plugins You Need </b></a></p>
+
+
 ## Contents
 
 - [What is DeepSeek Harness?](#what-is-deepseek-harness)
