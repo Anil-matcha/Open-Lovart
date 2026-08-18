@@ -76,8 +76,13 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [hanzhangzzz/dsh-diagram](https://github.com/hanzhangzzz/dsh-diagram) — Editable Excalidraw diagrams embedded directly in conversations.
 - [giiiiiithub/terminal](https://github.com/giiiiiithub/terminal) — A real PTY terminal panel via node-pty and xterm.js, with multi-tab sessions and a dock/floating window.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type. Uses the model dsh is already configured with, so no API key.
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) — Terminal-style input history for the web composer: edge-first arrows with exact draft/caret restore, Ctrl+R reverse search, workspace-scoped recall, and sliding-context awareness.
+- [PerryLink/dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) — Runtime-switchable model output styles with Claude Code outputStyles parity, plus the output.render.* presentation protocol and a /style command.
+- [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) — Pin sessions and workspaces to the top of the Web sidebar with per-pin row colors, boards, tags, saved views, and /goto.
+- [PerryLink/dsh-talk](https://github.com/PerryLink/dsh-talk) — Voice-first session loop: composer microphone with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for TTS replies, event announcements, and speak-to-interrupt.
 - [Ricketts-Guo/dsh-shortcuts](https://github.com/Ricketts-Guo/dsh-shortcuts) — 34 pre-registered keyboard shortcuts (sessions, views, clipboard, models, silent permission cycling), one-click recording to bind your own.
 - [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.
+- [PerryLink/dsh-budget](https://github.com/PerryLink/dsh-budget) — Cost governance: aggregated token/cost metering per model, session and day, session/daily/monthly caps with threshold alerts, alert/block/degrade over-limit policies, carbon estimation, and the /budget command.
 - [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) — Realtime conversation outline: user questions plus Markdown headings, streaming updates, click-to-jump.
 
 ### Usage & Billing
@@ -103,6 +108,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Isilsolme/dsh-anthropic-fonts](https://github.com/Isilsolme/dsh-anthropic-fonts) — Anthropic Sans/Serif/Mono fonts with CJK fallback.
 - [KinGao294/dsh-skin](https://github.com/KinGao294/dsh-skin) — Codex-style skin switcher with a custom wallpaper layer.
 - [Lhy723/dsh-neu-theme](https://github.com/Lhy723/dsh-neu-theme) — Neumorphic theme with ambient lighting, material shadows, and frosted-glass surfaces.
+- [PerryLink/dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) — Ollama local-model integration: discover, pull, remove and inspect local models, route by task type or keyword with automatic cloud fallback, and a /ollama status overview.
+- [PerryLink/dsh-translate](https://github.com/PerryLink/dsh-translate) — Vendor parameter translation across 11 vendors plus deterministic JSON repair for broken tool output, never fabricating data.
 - [RevolutionLA/dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin) — 8 original themes, translucent wallpaper with opacity/blur, per-user accent, shareable theme-pack import/export.
 - [Tkingxiao/dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) — Full custom theme colors, background wallpapers, and per-section transparency/blur, with import/export.
 
@@ -117,6 +124,9 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [kam74515-boop/dsh-everything-oauth](https://github.com/kam74515-boop/dsh-everything-oauth) — Imports existing Codex, Grok, Claude, and OpenCode logins so you don't re-auth per tool.
 - [katsos/dsh-claude-cli](https://github.com/katsos/dsh-claude-cli) — Runs the local Claude Code CLI as a model backend over an existing subscription instead of a metered key.
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud native chat adapter with model discovery and web search/fetch providers.
+- [PerryLink/dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — Claude Code /rewind for DSH: git-first workspace snapshots, turn-boundary session forks, and one-shot restore via /checkpoint and /rewind.
+- [PerryLink/dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills and slash commands into DSH as resumable sessions.
+- [PerryLink/dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) — Cross-device session sync through a dedicated git mirror with append-only three-way merge (keep-both + fork conflicts), a /sync command, and auto push/pull.
 - [WNJXYK/dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) — Use a ChatGPT/Codex subscription in DSH with GPT models, image generation, web search, and browser or device-code OAuth sign-in.
 - [r600a-code/dsh-swarm-router](https://github.com/r600a-code/dsh-swarm-router) — Routes heterogeneous tasks to the best-suited model with feedback-driven ranking.
 
@@ -144,8 +154,12 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) — Multi-agent spatiotemporal memory graph with a self-evolving knowledge flywheel and auditable trust guardrails.
 - [GIT121995/dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) — Bounded local memory with explainable use/verify/ignore decisions, a full audit trail, and a tight per-call injection cap.
 - [highland0971/dsh-native-memory](https://github.com/highland0971/dsh-native-memory) — Native per-workspace memory with approval-gated writes and deterministic recall — no external server.
+- [PerryLink/dsh-click](https://github.com/PerryLink/dsh-click) — Cross-platform native desktop control (Windows first): screen_shot/screen_read, click/type/scroll/key, app_list/app_launch — approval-gated, never stealing foreground focus.
+- [PerryLink/dsh-library](https://github.com/PerryLink/dsh-library) — Local document knowledge base: hybrid semantic+keyword search with diversity re-ranking, citation-aware injection, and a SQLite-backed index with zero model downloads.
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) — Bounded, layered, approval-gated cross-session memory with a typed seam, SQLite provider, and frozen-snapshot injection.
 - [KLRSL/dsh-biomemory](https://github.com/KLRSL/dsh-biomemory) — Biomimetic memory: plain-Markdown data layer, memory metabolism ("dream"), memory pins, semantic recall, and cross-session retrieval.
+- [PerryLink/dsh-score](https://github.com/PerryLink/dsh-score) — Multi-dimensional quality scoring for DSH plugins (install, maintenance, docs, security, protocol compliance) with real CLI evidence and a JSON/Markdown leaderboard.
+- [PerryLink/dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) — Isolated install-and-smoke test drives for DSH plugins in throwaway DSH_HOME profiles, emitting structured pass/fail result matrices.
 - [rainow/dsh-simple-wiki-memory](https://github.com/rainow/dsh-simple-wiki-memory) — A super-simplified LLM-wiki memory plugin: one index document (auto-loaded) + one markdown file per topic (read only when needed) — no dumping everything into the context and burning tokens. Simple and lightweight, painless to install/uninstall, and freely editable however you like.
 ### Tools & Capabilities
 
@@ -162,6 +176,9 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) — Research-only trading workbench: typed market-data seam with BYO providers, multi-timeframe indicator snapshots, interactive chart cards with provenance-gated model annotations, and a pre-execute risk-guard that blocks execution-shaped tool calls.
 
+- [PerryLink/dsh-draw](https://github.com/PerryLink/dsh-draw) — Unified static-image generation router: one image_generate tool over config-driven OpenAI-compatible engines (OpenAI Images, Zhipu CogView) with health-aware fallback, durable attachments, and per-session quotas.
+- [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) — The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API reference, and community gotchas.
+- [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) — Security-audit skill pack plus the plugin_vet supply-chain gate: eight bilingual agent skills and an automated pre-install scanner.
 ### Vision & Multimodal
 
 - [54xkeee/dsh-vision](https://github.com/54xkeee/dsh-vision) — Zero-cost vision for text-only DeepSeek via a logged-in Chrome CDP bridge, with fallback providers.
@@ -174,6 +191,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [good-boy4069/dsh-vision-guard](https://github.com/good-boy4069/dsh-vision-guard) — Transparent image guard avoiding session deadlocks, plus OCR/PDF/docx/pptx/video analysis.
 - [haiziyao/dsh-vision-mix](https://github.com/haiziyao/dsh-vision-mix) — Combines text, vision, and image-generation APIs into one auto-routing Mix model.
 
+- [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) — Durable background child agents on the official subagent seam plus persistent multi-agent team rooms with a message bus, shared task board, and approval-gated handoffs.
+- [PerryLink/dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — Engineering-discipline guard: requirements grill before the first edit, red/green test-evidence gates, adversarial delivery review, and a per-dimension verification report.
 ### Skills
 
 - [AKS1st/dsh-skill-manager](https://github.com/AKS1st/dsh-skill-manager) — Browse and edit system/user/workspace/preset skills, import from zip, export or delete.
@@ -198,6 +217,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) — Dependency-ordered task waves run in parallel git-worktree lanes with cross-model review and crash recovery.
 - [dickpy/dsh-cloud-sync](https://github.com/dickpy/dsh-cloud-sync) — Syncs DSH profiles and plugin archives through WebDAV/S3-compatible storage with encrypted snapshots.
 
+- [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — Official-grade GitHub CI integration: a composite action, polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue tools.
+- [PerryLink/dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints and rename over real language servers.
 ### Notifications & Integrations
 
 - [2006spy/dsh-token-billing](https://github.com/2006spy/dsh-token-billing) — Real-time token billing with official CNY pricing and automatic peak/off-peak switching.
@@ -209,6 +230,10 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [BiBoyang/dsh-im-bridge](https://github.com/BiBoyang/dsh-im-bridge) — Two-way WeChat bridge with in-chat approve/reject and message injection.
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
+- [PerryLink/dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — Second-model auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts, fail-closed by default.
+- [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) — Prompt-injection, jailbreak, and secret-leak detection with allow/ask/block interception across user messages, tool arguments, and tool results.
+- [PerryLink/dsh-mask](https://github.com/PerryLink/dsh-mask) — PII masking middleware: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restore them at display; plaintext is never logged.
+- [PerryLink/dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Declarative Claude Code-style allow/deny/ask permission rules plus a Codex-style process-level network policy with a built-in local HTTP/CONNECT proxy.
 - [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) — Connects DeepSeek Harness to Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp through one settings page, using QR codes, an app manifest, or bot credentials.
 
 ### Git & Engineering
@@ -230,6 +255,9 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [863683348/dsh-plugin-gate](https://github.com/863683348/dsh-plugin-gate) — Installation safety gate: antivirus-style scan of install scripts and permissions before `dsh plugin add`.
 - [dfycaly98931680/dsh-trajectory-governance](https://github.com/dfycaly98931680/dsh-trajectory-governance) — Rebuilds session logs into multi-branch trajectory trees, detects loop deadlock, invalid retry, and goal drift, with cost-attributed alerts.
 - [DamonKoy/dsh-plugins (dsh-approve-for-me)](https://github.com/DamonKoy/dsh-plugins/tree/main/packages/dsh-approve-for-me) — Auto-approves read-only tools and auto-denies dangerous commands via a fail-closed policy engine.
+- [PerryLink/dsh-fast](https://github.com/PerryLink/dsh-fast) — Read-only performance diagnostics: session load timing, spill hits, compaction stats, context-injection token share, and LLM cache hit rate via /fast and fast_report.
+- [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) — MCP management console for the official DSH MCP client: /mcp health diagnostics, a Settings MCP tab with approval-gated server CRUD, and a tool trial console.
+- [PerryLink/dsh-observe](https://github.com/PerryLink/dsh-observe) — OpenTelemetry and Langfuse observability exporter: turn/step/tool/LLM spans, token and cost metrics, sanitized capture, batching, and bounded offline buffering.
 - [Raphaelutumn/dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) — Configurable per-turn budgets limiting distinct files, mutation calls, and payload bytes before file-mutation tools run.
 
 ### Output & Deliverables
