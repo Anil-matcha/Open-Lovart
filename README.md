@@ -78,6 +78,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type. Uses the model dsh is already configured with, so no API key.
 - [Ricketts-Guo/dsh-shortcuts](https://github.com/Ricketts-Guo/dsh-shortcuts) — 34 pre-registered keyboard shortcuts (sessions, views, clipboard, models, silent permission cycling), one-click recording to bind your own.
 - [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.
+- [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) — Realtime conversation outline: user questions plus Markdown headings, streaming updates, click-to-jump.
 
 ### Usage & Billing
 
