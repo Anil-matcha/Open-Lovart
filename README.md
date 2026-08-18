@@ -269,6 +269,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [863683348/dsh-plugin-audit](https://github.com/863683348/dsh-plugin-audit) — Ecosystem-wide health audit: maintenance/docs/downloads scoring, security scan, web leaderboard.
 - [863683348/dsh-recipe](https://github.com/863683348/dsh-recipe) — Scenario bundles of plugins ("dotfiles for the plugin world") with ordered install sequences.
 - [alex04130/dsh-forge](https://github.com/alex04130/dsh-forge) — Runtime extension suite: cross-session mailbox, agent teams, subagent spawn policy, plugin market.
+- [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) — Browse and install DSH plugins from inside the harness through `/store`, a Settings tab, and agent search/install tools, with approval-gated installs.
 - [huguangyu666/dsh-store](https://github.com/huguangyu666/dsh-store) — npm-authoritative catalog plus curated list (550+ plugins), with quality verification.
 - [icefall7/dsh-plugin-scout](https://github.com/icefall7/dsh-plugin-scout) — Scouts every `dsh-plugin`-tagged repo and judges each as worth trying, watching, or skipping.
 
