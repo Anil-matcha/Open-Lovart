@@ -78,6 +78,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type. Uses the model dsh is already configured with, so no API key.
 - [Ricketts-Guo/dsh-shortcuts](https://github.com/Ricketts-Guo/dsh-shortcuts) — 34 pre-registered keyboard shortcuts (sessions, views, clipboard, models, silent permission cycling), one-click recording to bind your own.
 - [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.
+- [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) — Realtime conversation outline: user questions plus Markdown headings, streaming updates, click-to-jump.
 
 ### Usage & Billing
 
@@ -145,7 +146,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [highland0971/dsh-native-memory](https://github.com/highland0971/dsh-native-memory) — Native per-workspace memory with approval-gated writes and deterministic recall — no external server.
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) — Bounded, layered, approval-gated cross-session memory with a typed seam, SQLite provider, and frozen-snapshot injection.
 - [KLRSL/dsh-biomemory](https://github.com/KLRSL/dsh-biomemory) — Biomimetic memory: plain-Markdown data layer, memory metabolism ("dream"), memory pins, semantic recall, and cross-session retrieval.
-
+- [rainow/dsh-simple-wiki-memory](https://github.com/rainow/dsh-simple-wiki-memory) — A super-simplified LLM-wiki memory plugin: one index document (auto-loaded) + one markdown file per topic (read only when needed) — no dumping everything into the context and burning tokens. Simple and lightweight, painless to install/uninstall, and freely editable however you like.
 ### Tools & Capabilities
 
 - [988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) — Cross-platform Computer Use: virtual-mouse operation, AX-tree zero-vision-cost mode, and safety guards.
@@ -209,6 +210,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
 - [UllrAI/dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) — MQTT agent gateway for submitting, steering, observing, and cancelling DSH sessions over authenticated or TLS broker connections.
+- [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) — Connects DeepSeek Harness to Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp through one settings page, using QR codes, an app manifest, or bot credentials.
 
 ### Git & Engineering
 
@@ -249,6 +251,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Realyujie/dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) — US stock quotes, price history, financial statements, analyst consensus and news.
 - [wade20250715/dsh-pubmed](https://github.com/wade20250715/dsh-pubmed) — PubMed deep-research toolset: literature search, author investigation, same-name disambiguation, institution statistics.
 - [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) — Academic writing guard: removes AI-style defensive writing, protects scientific evidence, calibrates tone toward a target journal.
+- [kentleenot/dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) — A-share and US stock trading toolkit for DSH agents: realtime quotes, OHLCV klines, ADX three-state regime signals and simple backtest previews via EastMoney. Read-only, never places orders.
 
 ### Development & Runtime
 
@@ -258,6 +261,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) — Compares the harness and every plugin against npm/GitHub releases with one-click updates and rollback.
 - [aokamoaki/dsh-startup-guard](https://github.com/aokamoaki/dsh-startup-guard) — Repairs corrupt session logs and quarantines crash-causing bundles so a broken plugin can't brick startup.
 - [ayahunter/dsh-plugin-clinic](https://github.com/ayahunter/dsh-plugin-clinic) — Read-only health check of the installed plugin set: loader health, dependency integrity, install-script risk.
+- [Linxiushen/dsh-workflow-isolate](https://github.com/Linxiushen/dsh-workflow-isolate) — Runs model-written workflows in a fresh QuickJS/WASM runtime with bounded memory, execution fuel, wall time, and child-agent fan-out.
 
 ### Plugin Markets & Managers
 
@@ -267,6 +271,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [863683348/dsh-plugin-audit](https://github.com/863683348/dsh-plugin-audit) — Ecosystem-wide health audit: maintenance/docs/downloads scoring, security scan, web leaderboard.
 - [863683348/dsh-recipe](https://github.com/863683348/dsh-recipe) — Scenario bundles of plugins ("dotfiles for the plugin world") with ordered install sequences.
 - [alex04130/dsh-forge](https://github.com/alex04130/dsh-forge) — Runtime extension suite: cross-session mailbox, agent teams, subagent spawn policy, plugin market.
+- [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) — Browse and install DSH plugins from inside the harness through `/store`, a Settings tab, and agent search/install tools, with approval-gated installs.
 - [huguangyu666/dsh-store](https://github.com/huguangyu666/dsh-store) — npm-authoritative catalog plus curated list (550+ plugins), with quality verification.
 - [icefall7/dsh-plugin-scout](https://github.com/icefall7/dsh-plugin-scout) — Scouts every `dsh-plugin`-tagged repo and judges each as worth trying, watching, or skipping.
 
