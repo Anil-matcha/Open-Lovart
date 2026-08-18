@@ -208,6 +208,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [BiBoyang/dsh-im-bridge](https://github.com/BiBoyang/dsh-im-bridge) — Two-way WeChat bridge with in-chat approve/reject and message injection.
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
+- [UllrAI/dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) — MQTT agent gateway for submitting, steering, observing, and cancelling DSH sessions over authenticated or TLS broker connections.
 
 ### Git & Engineering
 
