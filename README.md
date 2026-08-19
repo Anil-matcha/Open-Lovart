@@ -184,6 +184,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Ikalus1988/MisakaNet](https://github.com/Ikalus1988/MisakaNet) — Failure-recovery memory with BM25 + semantic RAG retrieval over past engineering sessions.
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 85-skill pack for reverse engineering and authorized pentesting/security research.
 
+- [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) — 88 source-verifiable Agent Skills with a native DSH installer targeting `.dsh/skills`, covering research, social intelligence, marketing, and business workflows including multi-source evidence validation.
+
 ### Workflow & Automation
 
 - [1052326311/dsh-plan-lattice](https://github.com/1052326311/dsh-plan-lattice) — Persistent execution contracts and recursive work graphs for long or underspecified tasks.
