@@ -195,6 +195,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [ChongCyrus/Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) — Multi-agent math solving: brainstorm → solve → multi-verifier debate → verified knowledge base.
 - [cloader/dsh-taskboard](https://github.com/cloader/dsh-taskboard) — Task board with project/model assignment and cron scheduling.
 - [EvilIrving/dsh-proof](https://github.com/EvilIrving/dsh-proof) — Independent read-only acceptance layer verifying each turn before it closes.
+- [fakechris/dsh-track](https://github.com/fakechris/dsh-track) — Embedded task management engine: decision-point protocol, idea capture wall, Linear-style issue store.
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) — Dependency-ordered task waves run in parallel git-worktree lanes with cross-model review and crash recovery.
 - [dickpy/dsh-cloud-sync](https://github.com/dickpy/dsh-cloud-sync) — Syncs DSH profiles and plugin archives through WebDAV/S3-compatible storage with encrypted snapshots.
 
@@ -260,6 +261,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) — Compares the harness and every plugin against npm/GitHub releases with one-click updates and rollback.
 - [aokamoaki/dsh-startup-guard](https://github.com/aokamoaki/dsh-startup-guard) — Repairs corrupt session logs and quarantines crash-causing bundles so a broken plugin can't brick startup.
 - [ayahunter/dsh-plugin-clinic](https://github.com/ayahunter/dsh-plugin-clinic) — Read-only health check of the installed plugin set: loader health, dependency integrity, install-script risk.
+- [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — Self-healing ops toolbox: daily-snapshot A/B rotation with acceptance-gated atomic switch and rollback, a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor for when web and agent are both down.
 - [Linxiushen/dsh-workflow-isolate](https://github.com/Linxiushen/dsh-workflow-isolate) — Runs model-written workflows in a fresh QuickJS/WASM runtime with bounded memory, execution fuel, wall time, and child-agent fan-out.
 
 ### Plugin Markets & Managers
