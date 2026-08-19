@@ -165,6 +165,11 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [WODE25500/dsh-terraform](https://github.com/WODE25500/dsh-terraform) — Infrastructure as code: gated plan/apply, state/output inspection and config validation via the terraform CLI.
 - [WODE25500/dsh-k6](https://github.com/WODE25500/dsh-k6) — Load testing with Grafana k6: smoke test first, then run scripts and read p95/p99 from the JSON summary.
 - [WODE25500/dsh-az](https://github.com/WODE25500/dsh-az) — Azure resource management: query/show resources, deploy Bicep/ARM templates and check the activity log.
+- [WODE25500/dsh-skillopt](https://github.com/WODE25500/dsh-skillopt) — Microsoft SkillOpt-Sleep integration: a nightly sleep cycle that harvests sessions, mines recurring tasks, replays them and consolidates validated skills behind a held-out gate.
+- [WODE25500/dsh-winget](https://github.com/WODE25500/dsh-winget) — Windows Package Manager: search/install/upgrade/uninstall/import-export/pin software through native tools.
+- [WODE25500/dsh-wsl](https://github.com/WODE25500/dsh-wsl) — WSL bridge: run Linux commands, manage distros, convert Windows↔WSL paths and copy files — with automatic UTF-16 output normalization.
+- [WODE25500/dsh-codex](https://github.com/WODE25500/dsh-codex) — OpenAI Codex CLI wrapper: one-shot exec, repo review and session resume with a default read-only sandbox.
+- [WODE25500/dsh-ssh-pro](https://github.com/WODE25500/dsh-ssh-pro) — Enhanced SSH ops: connectivity testing, remote ls, ssh-config import, known_hosts fingerprint checks and multi-host exec.
 
 ### Vision & Multimodal
 
