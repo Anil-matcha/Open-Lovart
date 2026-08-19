@@ -277,6 +277,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 ### Just for Fun
 
 - [AmeKrance/anan-thermal-monitor](https://github.com/AmeKrance/anan-thermal-monitor) — Desktop pet showing real-time CPU/RAM/GPU/NVMe temperatures.
+- [anneheartrecord/dsh-desk-pet](https://github.com/anneheartrecord/dsh-desk-pet) — macOS desk pet in a real always-on-top window rather than a page widget: six states driven by local DSH, and a bundled skill that turns one photo into a whole skin.
 - [Awu12277/dsh-stock-watch](https://github.com/Awu12277/dsh-stock-watch) — A-share watchlist with intraday and candlestick charts in a collapsible popup.
 - [hellodigua/dsh-emoji](https://github.com/hellodigua/dsh-emoji) — Automatically adds emojis to AI replies.
 - [HuanLinOTO/dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) — Pops up a mini-game menu (wordle, match-3) while the model generates.
