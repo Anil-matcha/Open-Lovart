@@ -209,6 +209,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [BiBoyang/dsh-im-bridge](https://github.com/BiBoyang/dsh-im-bridge) — Two-way WeChat bridge with in-chat approve/reject and message injection.
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
+- [temotee2103/dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) — Multi-platform chat gateway for DeepSeek Harness (WhatsApp, Telegram, Discord, Slack, Feishu, DingTalk, WeCom) with in-chat trajectory replay, subagents, cron scheduling and tap-to-approve buttons.
 - [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) — Connects DeepSeek Harness to Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp through one settings page, using QR codes, an app manifest, or bot credentials.
 
 ### Git & Engineering
@@ -220,6 +221,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [a179-sanae/dsh-code-check](https://github.com/a179-sanae/dsh-code-check) — Runs `tsc --noEmit` after edits and reports errors via a `code_check` tool.
 - [AngelosZou/graphlint](https://github.com/AngelosZou/graphlint/tree/main/integrations/dsh) — Dead-code detection for AI-generated codebases via dependency-graph reachability.
 - [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) — Full IDE workbench inside the Web UI: multi-tab editing, workspace terminal, file tree, and SCM (stage/commit/push/pull, branch switch, git graph, inline diffs).
+- [temotee2103/dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) — GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes.
 
 ### Security & Governance
 
