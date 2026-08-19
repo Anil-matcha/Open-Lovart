@@ -239,6 +239,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) — Deterministic agent reports from session logs: cost & token breakdown, collaboration review, live provider balance, PDF/PNG/HTML export.
 - [beijingwahw/dsh-companion](https://github.com/beijingwahw/dsh-companion) — Smart conversation export (Markdown/PDF/JSON/PNG long-image) with privacy redaction and batch ZIP.
 - [Nothree-code/folder-tree-sh](https://github.com/Nothree-code/folder-tree-sh) — Workspace file tree with multi-tab preview (text/DOCX/PDF/Markdown/CSV/images) and inline Markdown editing.
+- [263311487-ux/dsh-verify](https://github.com/263311487-ux/dsh-verify) — Independent browser acceptance testing for agent deliverables: JSON spec in, real Chromium verdict out (PASS/FAIL with screenshots). MCP server + CLI + GitHub Action, works with any agent and CI.
 
 ### Domain & Specialist
 
