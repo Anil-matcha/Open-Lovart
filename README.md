@@ -29,6 +29,7 @@ DeepSeek Harness is a runnable coding agent (Web UI + headless) built on [Cordis
   - [Notifications & Integrations](#notifications--integrations)
   - [Git & Engineering](#git--engineering)
   - [Security & Governance](#security--governance)
+  - [Remote Access & Mobile](#remote-access--mobile)
   - [Output & Deliverables](#output--deliverables)
   - [Domain & Specialist](#domain--specialist)
   - [Development & Runtime](#development--runtime)
@@ -231,6 +232,10 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [dfycaly98931680/dsh-trajectory-governance](https://github.com/dfycaly98931680/dsh-trajectory-governance) — Rebuilds session logs into multi-branch trajectory trees, detects loop deadlock, invalid retry, and goal drift, with cost-attributed alerts.
 - [DamonKoy/dsh-plugins (dsh-approve-for-me)](https://github.com/DamonKoy/dsh-plugins/tree/main/packages/dsh-approve-for-me) — Auto-approves read-only tools and auto-denies dangerous commands via a fail-closed policy engine.
 - [Raphaelutumn/dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) — Configurable per-turn budgets limiting distinct files, mutation calls, and payload bytes before file-mutation tools run.
+
+### Remote Access & Mobile
+
+- [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) — Password-gated reverse-proxy gateway to control the DSH Web UI from a phone browser with full feature coverage (including privileged methods): loopback masquerading, WebSocket passthrough, login rate limiting, optional TLS, LAN or public reverse-proxy deployment.
 
 ### Output & Deliverables
 
