@@ -161,6 +161,10 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [buhuikongpan/dsh-win-gitbash](https://github.com/buhuikongpan/dsh-win-gitbash) — Git Bash shell tool for Windows with timeout, sandbox, output truncation, and background jobs.
 
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) — Research-only trading workbench: typed market-data seam with BYO providers, multi-timeframe indicator snapshots, interactive chart cards with provenance-gated model annotations, and a pre-execute risk-guard that blocks execution-shaped tool calls.
+- [WODE25500/dsh-kubectl](https://github.com/WODE25500/dsh-kubectl) — Kubernetes ops for the agent: get resources with structured JSON output, describe, logs, exec, apply/delete (confirmed), and port-forward.
+- [WODE25500/dsh-terraform](https://github.com/WODE25500/dsh-terraform) — Infrastructure as code: gated plan/apply, state/output inspection and config validation via the terraform CLI.
+- [WODE25500/dsh-k6](https://github.com/WODE25500/dsh-k6) — Load testing with Grafana k6: smoke test first, then run scripts and read p95/p99 from the JSON summary.
+- [WODE25500/dsh-az](https://github.com/WODE25500/dsh-az) — Azure resource management: query/show resources, deploy Bicep/ARM templates and check the activity log.
 
 ### Vision & Multimodal
 
