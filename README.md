@@ -92,6 +92,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 
 ### Usage & Billing
 
+- [melvinWEN/dsh-elegent-balance-tracker](https://github.com/melvinWEN/dsh-elegent-balance-tracker) — Elegant billing tracker: per-session cost (official peak/off-peak pricing by message time) under the composer stats plus official account balance right-aligned on the sidebar settings row, with per-minute balance re-alignment and real-time local-cost deduction in between.
 - [02Muller25/dsh-api-balance](https://github.com/02Muller25/dsh-api-balance) — Real-time DeepSeek API account balance in the composer dock.
 - [283Gawin/dsh-heatmap](https://github.com/283Gawin/dsh-heatmap) — GitHub-style activity heatmap of daily commits, token usage, and estimated spend.
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) — Usage and cost statistics with peak/off-peak pricing and a day/week/month/year/all usage heatmap.
