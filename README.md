@@ -149,6 +149,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [dream12347/dsh-session-manager](https://github.com/dream12347/dsh-session-manager) — Session trash/restore/purge, recent-activity stats, workspace grouping, and compaction threshold control.
 - [fredalxin/dsh-solo-thinking](https://github.com/fredalxin/dsh-solo-thinking) — Visual branch brainstorming: isolated session per direction with automated parent/sibling/checkpoint handoffs and a full tree tab.
 - [limbo947/dsh-recall-plugin](https://github.com/limbo947/dsh-recall-plugin) — Rolls conversation and workspace files back to before any user message, via shadow git snapshots with a diff-preview confirmation.
+- [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — Inline edit & recall for user-message bubbles in DSH Web — lazy commit, seamless replacement, version pager, draft auto-backup, trilingual i18n. DSH Web 内用户消息气泡内联编辑与撤回插件：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n。
 
 ### Memory
 
