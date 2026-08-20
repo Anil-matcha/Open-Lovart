@@ -209,6 +209,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [BiBoyang/dsh-im-bridge](https://github.com/BiBoyang/dsh-im-bridge) — Two-way WeChat bridge with in-chat approve/reject and message injection.
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
+- [ttmouse/dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) — DingTalk IM channel via Stream-mode WebSocket: each chat drives its own tooled agent; replies stream back as messages, no public callback URL needed.
 - [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) — Connects DeepSeek Harness to Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp through one settings page, using QR codes, an app manifest, or bot credentials.
 
 ### Git & Engineering
