@@ -270,6 +270,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Linxiushen/dsh-workflow-isolate](https://github.com/Linxiushen/dsh-workflow-isolate) — Runs model-written workflows in a fresh QuickJS/WASM runtime with bounded memory, execution fuel, wall time, and child-agent fan-out.
 - [beihzb/dsh-notebook](https://github.com/beihzb/dsh-notebook) — Native Jupyter-style notebook: real ipykernel sidecar, VS Code-aligned cell UI, tqdm progress, inline figures, per-cell AI revision.
 
+- [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — Local-first runtime whose installable `managed-agents` DSH plugin exposes six MCP tools for persistent sessions, streamed turns, artifacts, cancellation, audit/replay, and local/Docker/Kubernetes/self-hosted-worker sandboxes.
+
 ### Plugin Markets & Managers
 
 - [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) — Live GitHub `dsh-plugin` topic search with per-repo manifest verification and anti-squatting checks.
