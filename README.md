@@ -283,6 +283,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 
 ### Plugin Markets & Managers
 
+- [sandbaseai/dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) — Native Settings marketplace for discovering, filtering, installing, and managing the community catalog, with separate Community and Installed views.
 - [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) — Live GitHub `dsh-plugin` topic search with per-repo manifest verification and anti-squatting checks.
 - [863683348/dsh-insight](https://github.com/863683348/dsh-insight) — Plugin insight center: needs-matching, environment recipes, health scoring, security audit verdict.
 - [863683348/dsh-need-finder](https://github.com/863683348/dsh-need-finder) — Requirement-driven plugin discovery matching natural-language needs to a curated directory.
