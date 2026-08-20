@@ -88,6 +88,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [bobcat848/dsh-calculator](https://github.com/bobcat848/dsh-calculator) — Session and all-time API spend plus account balance, with official pricing support.
 - [bpc-oss/dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) — RMB/USD token-billing plugin for DeepSeek Harness: official-policy auto pricing (peak/off-peak), per-provider billing (usage/subscription/free-ride/local), source-grouped cost page, budget, balance, CSV/JSON export.
 - [CN-Leo/dsh-deepseek-balance](https://github.com/CN-Leo/dsh-deepseek-balance) — Real-time account balance in the composer dock, auto-refreshing every 15 seconds.
+- [DoggyHU/dsh-plugin-quota-monitor](https://github.com/DoggyHU/dsh-plugin-quota-monitor) — Sidebar footer quota & balance monitor: always-on DeepSeek Rage (¥) + OpenCode Go HP/MP/SP quota windows (monthly/weekly/5h) + SCNet (国家超算) Credits estimated locally from DSH session logs; data source & rate table configurable in Settings.
 - [Ghost011118/dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — Account balance and session cost in the composer dock with peak/off-peak support.
 - [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — Per-session and daily cost with a budget bar and one-click official price sync.
 - [huanyuLv/dsh-balance-tide](https://github.com/huanyuLv/dsh-balance-tide) — Live peak/off-peak pricing badge with a countdown to the next pricing switch.
