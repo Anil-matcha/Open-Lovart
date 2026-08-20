@@ -216,6 +216,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 85-skill pack for reverse engineering and authorized pentesting/security research.
 
 - [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) — 88 source-verifiable Agent Skills with a native DSH installer targeting `.dsh/skills`, covering research, social intelligence, marketing, and business workflows including multi-source evidence validation.
+- [YTyangtao666/dsh-skills-bridge](https://github.com/YTyangtao666/dsh-skills-bridge) — Mount your existing Claude Code skills (~/.claude/skills, ~/.agents/skills, custom dirs) into DSH as a native SkillProvider: frontmatter auto-normalized (when_to_use→whenToUse), rank-250 conflict policy, optional hot-reload, zero runtime deps.
+
 
 ### Workflow & Automation
 
