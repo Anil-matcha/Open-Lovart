@@ -242,6 +242,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Alan2Z/dsh-speak](https://github.com/Alan2Z/dsh-speak) — Voice-announces the final reply via native OS voices on Windows and macOS.
 - [amlyczz/dsh-lark-link](https://github.com/amlyczz/dsh-lark-link) — High-reliability Feishu/Lark bridge with QR auth and card-based approval commands.
 - [aokamoaki/dsh-notify](https://github.com/aokamoaki/dsh-notify) — Windows toast + sound on turn done/error/goal, plus ask & approval alerts.
+- [Dawn388887/dsh-notify](https://github.com/Dawn388887/dsh-notify) — Windows desktop toast + remote-device browser notifications (Service Worker) when a session agent finishes or errors, with a /notify command and Settings toggle.
 - [BiBoyang/dsh-im-bridge](https://github.com/BiBoyang/dsh-im-bridge) — Two-way WeChat bridge with in-chat approve/reject and message injection.
 - [Bing-Bryan/dsh-unread-dot](https://github.com/Bing-Bryan/dsh-unread-dot) — macOS Dock badge and chime built on the Badging API.
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — Bridges sessions, tool calls, and approvals to the macOS notch panel.
@@ -284,6 +285,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 ### Remote Access & Mobile
 
 - [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) — Password-gated reverse-proxy gateway to control the DSH Web UI from a phone browser with full feature coverage (including privileged methods): loopback masquerading, WebSocket passthrough, login rate limiting, optional TLS, LAN or public reverse-proxy deployment.
+- [Dawn388887/dsh-fileview](https://github.com/Dawn388887/dsh-fileview) — In-GUI file viewer/editor for remote browsers: same-origin fenced, path-allowlisted, encoding-preserving saves.
 
 ### Output & Deliverables
 
