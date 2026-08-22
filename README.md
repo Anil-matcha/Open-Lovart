@@ -225,6 +225,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [apheli0os/deepseek-harness-orchestrate](https://github.com/apheli0os/deepseek-harness-orchestrate) — Declarative task-DAG orchestration with parallel topological execution.
 - [biociao/dsh-science](https://github.com/biociao/dsh-science) — Research workbench: ReAct research loop, versioned artifacts with provenance, and science skills.
 - [btspoony/dsh-advisor](https://github.com/btspoony/dsh-advisor) — Pairs a second model that passively reviews each turn and injects notes.
+- [chenzhi-clude/dsh-hooks-pack](https://github.com/chenzhi-clude/dsh-hooks-pack) — One-click Claude Code & Codex hooks for DSH: auto-discovers existing ~/.claude / ~/.codex hook config and runs it on the official bridge plugins, with an explicit sandbox-policy shim so hook commands never die silently.
 - [ChongCyrus/Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) — Multi-agent math solving: brainstorm → solve → multi-verifier debate → verified knowledge base.
 - [cloader/dsh-taskboard](https://github.com/cloader/dsh-taskboard) — Task board with project/model assignment and cron scheduling.
 - [EvilIrving/dsh-proof](https://github.com/EvilIrving/dsh-proof) — Independent read-only acceptance layer verifying each turn before it closes.
