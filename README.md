@@ -198,7 +198,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [ConsoleSun/Gemini-Eyes](https://github.com/ConsoleSun/Gemini-Eyes) — MCP bridge to gemini.google.com for vision analysis plus Imagen/Veo generation, no API key.
 - [Einskyle/dsh-llm-vision-bridge](https://github.com/Einskyle/dsh-llm-vision-bridge) — Native vision bridge routing pasted images through a local VLM, then feeding the description to text-only DeepSeek.
 - [FuzzySoul/dsh-free-vision](https://github.com/FuzzySoul/dsh-free-vision) — Free-tier vision bridge (Qwen3-VL-Flash, Doubao, DeepSeek-OCR) with a settings GUI.
-- [Flyvhidbwo/dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) — GUI image attachments auto-transcribed to text for text-only DeepSeek via any OpenAI-compatible VLM — keyed fast path (default qwen3.7-flash) with your key, or local Ollama auto-detected, never hangs.
+- [Flyvhidbwo/dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) — GUI images auto-transcribed to text for text-only DeepSeek via the official deepseek-v4-flash-vision-exp by default (a pure-text V4-Pro brain can see images); any OpenAI-compatible VLM or local Ollama as alternatives.
 - [gloryxpnv/dsh-tool-vision](https://github.com/gloryxpnv/dsh-tool-vision) — Local-first structured vision returning JSON evidence — images never leave the machine.
 - [good-boy4069/dsh-vision-guard](https://github.com/good-boy4069/dsh-vision-guard) — Transparent image guard avoiding session deadlocks, plus OCR/PDF/docx/pptx/video analysis.
 - [haiziyao/dsh-vision-mix](https://github.com/haiziyao/dsh-vision-mix) — Combines text, vision, and image-generation APIs into one auto-routing Mix model.
