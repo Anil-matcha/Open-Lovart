@@ -189,6 +189,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [PerryLink/dsh-draw](https://github.com/PerryLink/dsh-draw) — Unified static-image generation router: one image_generate tool over config-driven OpenAI-compatible engines (OpenAI Images, Zhipu CogView) with health-aware fallback, durable attachments, and per-session quotas.
 - [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) — The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API reference, and community gotchas.
 - [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) — Security-audit skill pack plus the plugin_vet supply-chain gate: eight bilingual agent skills and an automated pre-install scanner.
+- [beijingwahw/dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — Transactional uninstall engine: every destructive action runs validate/preview/execute/undo with Saga rollback, WAL crash recovery, hash-chain audit, hardlink dedup, and a Bayesian oracle that predicts success probability before you commit.
 
 ### Vision & Multimodal
 
