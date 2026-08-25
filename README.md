@@ -93,6 +93,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) — Realtime conversation outline: user questions plus Markdown headings, streaming updates, click-to-jump.
 - [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) — Workspace/chat context menu for the DSH home page: pin, rename, open in file explorer, archive, fork, copy, and open in a new window.
 - [YannZhou/dsh-about](https://github.com/YannZhou/dsh-about) — Settings "About" tab: DeepSeek logo, version info, npm latest/next update check with one-click global update + auto-restart, and GitHub releases history.
+- [SnowCrescenter-tech/dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) — Git-style dot timeline on the right edge of the DSH web UI: one dot per user message, hover for content & metadata, click to jump; full-session list, in-session & cross-session search, #msg= deep-link bookmarks, keyboard nav.
 - - [ssjob123/dsh-file-panel-left](https://github.com/ssjob123/dsh-file-panel-left) — Files-only workbench sidebar: always-docked file tree, CodeMirror editor, previews, and @-references with real line numbers.
 
 ### Usage & Billing
