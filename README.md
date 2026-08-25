@@ -1,4 +1,4 @@
-# Awesome DSH Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+﻿# Awesome DSH Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated guide to [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — DeepSeek's open-source, everything-is-a-plugin coding agent — and the best community plugins built on it.
 
@@ -189,6 +189,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [buhuikongpan/dsh-win-gitbash](https://github.com/buhuikongpan/dsh-win-gitbash) — Git Bash shell tool for Windows with timeout, sandbox, output truncation, and background jobs.
 - [beihzb/dsh-envsel](https://github.com/beihzb/dsh-envsel) — Session environment picker for DSH: per-language conda / standalone R / WSL / custom-path slots in the conversation header plus a /env command and session_env tool.
 - [dhicoc/dsh-codex-web-search-mcp](https://github.com/dhicoc/dsh-codex-web-search-mcp) — Registers codex-web-search-mcp as native DSH MCP tools (codex_web_search / codex_web_research / web_fetch) for model-independent Codex/Grok web search and deep research.
+
+- [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — Chinese novel writing assistant for DSH: sentence/emotion/imagery analysis, 6-dim writing-metric baseline band with per-chapter μ±σ, 12-axis vibe spectrum, style portrait report, local semantic search (0 token), plot & settings management, and 15 novel tools.
 
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) — Research-only trading workbench: typed market-data seam with BYO providers, multi-timeframe indicator snapshots, interactive chart cards with provenance-gated model annotations, and a pre-execute risk-guard that blocks execution-shaped tool calls.
 - [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) — Create, edit, inspect, and deliver spreadsheets, documents, presentations, databases, and canvases with live preview and worktree review.
