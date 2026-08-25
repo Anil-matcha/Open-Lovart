@@ -76,6 +76,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [AKS1st/dsh-sysmon](https://github.com/AKS1st/dsh-sysmon) — Floating CPU/memory/disk widget with threshold color warnings.
 - [hanzhangzzz/dsh-diagram](https://github.com/hanzhangzzz/dsh-diagram) — Editable Excalidraw diagrams embedded directly in conversations.
 - [giiiiiithub/terminal](https://github.com/giiiiiithub/terminal) — A real PTY terminal panel via node-pty and xterm.js, with multi-tab sessions and a dock/floating window.
+- [Laplace-bit/dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) — Fluid streaming rendering and smooth scrolling for the DeepSeek Harness Web UI.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type. Uses the model dsh is already configured with, so no API key.
 - [Pasumao/dsh-plugin-choice-refresh](https://github.com/Pasumao/dsh-plugin-choice-refresh) — Adds "regenerate options" and "more options" buttons to ask_user_question / ask_user_choice cards — pure front-end, no core changes.
 - [Pasumao/dsh-plugin-image-tools](https://github.com/Pasumao/dsh-plugin-image-tools) — Image choice cards for ask_user_choice (zoomable), inline images in replies via show_images, and blind-model image capture — zero-token local rendering.
