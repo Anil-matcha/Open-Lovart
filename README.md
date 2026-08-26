@@ -97,6 +97,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [stephenlzc/dsh-swarm-panel#dsh-swarm-plugin](https://github.com/stephenlzc/dsh-swarm-panel/tree/main/dsh-swarm-plugin) — Conversation Flow observability for DeepSeek Harness swarms, with topology, routed-message inspection, HITL pauses, Live follow, and child-session navigation.
 - - [ssjob123/dsh-file-panel-left](https://github.com/ssjob123/dsh-file-panel-left) — Files-only workbench sidebar: always-docked file tree, CodeMirror editor, previews, and @-references with real line numbers.
 
+- [SiriLee/dsh-approval-hotkeys](https://github.com/SiriLee/dsh-approval-hotkeys) — Keyboard-first approval: Enter approves once, Esc rejects, Esc pauses review — works across approval and question panels.
 ### Usage & Billing
 
 - [melvinWEN/dsh-elegent-balance-tracker](https://github.com/melvinWEN/dsh-elegent-balance-tracker) — Elegant billing tracker: per-session cost (official peak/off-peak pricing by message time) under the composer stats plus official account balance right-aligned on the sidebar settings row, with per-minute balance re-alignment and real-time local-cost deduction in between.
