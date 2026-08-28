@@ -254,6 +254,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [fakechris/dsh-track](https://github.com/fakechris/dsh-track) — Embedded task management engine: decision-point protocol, idea capture wall, Linear-style issue store.
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) — Dependency-ordered task waves run in parallel git-worktree lanes with cross-model review and crash recovery.
 - [dickpy/dsh-cloud-sync](https://github.com/dickpy/dsh-cloud-sync) — Syncs DSH profiles and plugin archives through WebDAV/S3-compatible storage with encrypted snapshots.
+- [hongyue0721/dsh-kimicode-swarm](https://github.com/hongyue0721/dsh-kimicode-swarm) — Batch parallel subagent dispatch (`swarm_batch`): fans independent subtasks out to real subagents with two-stage adaptive concurrency (ramp-up plus collision-driven exponential backoff, auto shrink/recover), an in-chat live progress stream, and `resume_agent_ids` resumable runs.
 - [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — Official-grade GitHub CI integration: a composite action, polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue tools.
 - [PerryLink/dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints and rename over real language servers.
 
