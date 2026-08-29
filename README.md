@@ -399,6 +399,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [awesome-hermes-agent](https://github.com/Anil-matcha/awesome-hermes-agent) — curated resources for Hermes Agent (Nous Research), the self-evolving skill-generating agent.
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — a broader curated hub of open-source generative AI tools and platforms.
 - [Generative-Media-Skills](https://github.com/Anil-matcha/Generative-Media-Skills) — agent-skill building blocks for generative media workflows, in the same plugin/skill spirit as `dsh`.
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) — source-backed, Agent-first runtime, plugin, Session, MCP, sandbox, and troubleshooting guides for operating DSH safely.
 
 ## Contributing
 
