@@ -1,4 +1,4 @@
-﻿# Awesome DSH Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome DSH Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated guide to [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — DeepSeek's open-source, everything-is-a-plugin coding agent — and the best community plugins built on it.
 
@@ -337,6 +337,7 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) — Academic writing guard: removes AI-style defensive writing, protects scientific evidence, calibrates tone toward a target journal.
 - [kentleenot/dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) — A-share and US stock trading toolkit for DSH agents: realtime quotes, OHLCV klines, ADX three-state regime signals and simple backtest previews via EastMoney. Read-only, never places orders.
 - [liyc-sys/dsh-fixed-income-skills](https://github.com/liyc-sys/dsh-fixed-income-skills) — Fixed-income / credit skills: issuer rating-migration watch (fundamentals + market-implied spread + catalysts) and rate-scenario analysis (historically anchored curve scenarios with duration-based exposure impact). Ported from the LLMQuant financial Agent Skills library.
+- [Haniubub/seo-toolkit](https://github.com/Haniubub/seo-toolkit) — Full local & technical SEO audit toolkit for DSH: deterministic Python measurement (53 scripts) + LLM judgment (24 sub-skills, 18 agents), weighted scoring, gated multi-agent fan-out, schema.org, E-E-A-T, GBP, GEO/AI Overviews. ~4¢ per audit.
 
 ### Development & Runtime
 
