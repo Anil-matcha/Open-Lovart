@@ -386,6 +386,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — Parody ads in 2005-Chinese-web style. All fictional.
 - [ywleeo/dsh-md-preview](https://github.com/ywleeo/dsh-md-preview) — Sidebar workspace-row trigger opens a Markdown preview panel: nested collapsible directory tree, inline rendering, theme-aware, open in the system default app.
 
+- [weibaohui/dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian) — Xianxia desktop pets tied to live agent sessions: pixel-style companions appear as subagents spawn (up to 3 on screen), with storage-bag collection, a right-click artifact menu, a pet gallery, and Codex pet-format export.
+
 ## Writing Your Own Plugin
 
 1. Scaffold a `dsh.bundle` manifest declaring what your plugin extends (model, tool, sandbox, UI, session store, or the agent loop itself).
