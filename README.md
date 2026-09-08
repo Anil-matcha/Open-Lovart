@@ -161,6 +161,8 @@ Tag your own plugin repo with the [`dsh-plugin`](https://github.com/topics/dsh-p
 - [limbo947/dsh-recall-plugin](https://github.com/limbo947/dsh-recall-plugin) — Rolls conversation and workspace files back to before any user message, via shadow git snapshots with a diff-preview confirmation.
 - [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — Inline edit & recall for user-message bubbles in DSH Web — lazy commit, seamless replacement, version pager, draft auto-backup, trilingual i18n. DSH Web 内用户消息气泡内联编辑与撤回插件：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n。
 
+- [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) — Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped.
+
 ### Memory
 
 - [863683348/dsh-plugin-focus](https://github.com/863683348/dsh-plugin-focus) — Durable focus board pinning objective, constraints, and decisions across compaction and sessions.
